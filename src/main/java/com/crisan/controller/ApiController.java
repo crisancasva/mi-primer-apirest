@@ -34,7 +34,7 @@ public class ApiController {
     public Map<String,String> fechaActual(){
         Map<String, String> json = new HashMap<>();
         json.put("Fecha Actual: ", LocalDate.now().toString());
-        json.put("Fecha en 875 dias: : ", LocalDate.now().plusDays(875).toString());
+        json.put("Fecha en 875 dias: ", LocalDate.now().plusDays(875).toString());
 
         return json;
     }
